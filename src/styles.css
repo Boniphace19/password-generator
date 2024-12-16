@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    color: #5469d4;
+  }
+  
+  .password-generator {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .password-display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .password-display input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .password-display button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #5469d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .password-display button:hover {
+    background-color: #435bb3;
+  }
+  
+  .options {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .options label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .generate-btn {
+    padding: 10px 20px;
+    background-color: #5469d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .generate-btn:hover {
+    background-color: #435bb3;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+  
